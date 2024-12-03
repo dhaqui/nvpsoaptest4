@@ -1,9 +1,9 @@
 const https = require("https");
 const querystring = require("querystring");
 
-const PAYPAL_API_USERNAME = "your_sandbox_api_username";
-const PAYPAL_API_PASSWORD = "your_sandbox_api_password";
-const PAYPAL_API_SIGNATURE = "your_sandbox_api_signature";
+const PAYPAL_API_USERNAME = "testpp5678_api1.gmail.com";
+const PAYPAL_API_PASSWORD = "VB6XFM4ECSJJWC3Z";
+const PAYPAL_API_SIGNATURE = "AtrtuiK97tX1CiU8WNBpJkGLm2U9A8PbX9onAIILKx-eushGlrAM2BIF";
 
 module.exports = async (req, res) => {
   const { token, PayerID } = req.query;
