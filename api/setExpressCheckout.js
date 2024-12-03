@@ -1,9 +1,9 @@
 const https = require("https");
 const querystring = require("querystring");
 
-const PAYPAL_API_USERNAME = "your_sandbox_api_username";
-const PAYPAL_API_PASSWORD = "your_sandbox_api_password";
-const PAYPAL_API_SIGNATURE = "your_sandbox_api_signature";
+const PAYPAL_API_USERNAME = "testpp5678_api1.gmail.com";
+const PAYPAL_API_PASSWORD = "VB6XFM4ECSJJWC3Z";
+const PAYPAL_API_SIGNATURE = "AtrtuiK97tX1CiU8WNBpJkGLm2U9A8PbX9onAIILKx-eushGlrAM2BIF";
 
 module.exports = async (req, res) => {
   const params = querystring.stringify({
@@ -12,8 +12,8 @@ module.exports = async (req, res) => {
     PWD: PAYPAL_API_PASSWORD,
     SIGNATURE: PAYPAL_API_SIGNATURE,
     VERSION: "204",
-    RETURNURL: "https://nvpsoaptest3.vercel.app/api/getExpressCheckoutDetails",
-    CANCELURL: "https://nvpsoaptest3.vercel.app/public/cancel.html",
+    RETURNURL: "https://nvpsoaptest4.vercel.app/api/getExpressCheckoutDetails",
+    CANCELURL: "https://nvpsoaptest4.vercel.app/public/cancel.html",
     PAYMENTREQUEST_0_AMT: "10.00",
     PAYMENTREQUEST_0_CURRENCYCODE: "USD",
     PAYMENTREQUEST_0_PAYMENTACTION: "Order",
