@@ -23,7 +23,7 @@ module.exports = async (req, res) => {
     TOKEN: token,
     PAYERID: PayerID,
     PAYMENTREQUEST_0_AMT: "10.00",
-    PAYMENTREQUEST_0_CURRENCYCODE: "GHS",
+    PAYMENTREQUEST_0_CURRENCYCODE: "NGN",
     PAYMENTREQUEST_0_PAYMENTACTION: "Order",
   });
 
