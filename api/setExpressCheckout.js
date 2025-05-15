@@ -20,7 +20,7 @@ module.exports = async (req, res) => {
     RETURNURL: "https://nvpsoaptest4.vercel.app/api/getExpressCheckoutDetails",
     CANCELURL: "https://nvpsoaptest4.vercel.app/public/cancel.html",
     PAYMENTREQUEST_0_AMT: "10.00",
-    PAYMENTREQUEST_0_CURRENCYCODE: "NGN",
+    PAYMENTREQUEST_0_CURRENCYCODE: "ZAR",
     PAYMENTREQUEST_0_PAYMENTACTION: "Order",
   });
 
